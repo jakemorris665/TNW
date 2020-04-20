@@ -1,0 +1,824 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navLogo {
+  display: none;
+  width: 100px;
+  height: 85px;
+  background: orangered;
+}
+
+.black {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+}
+
+.blackNav-left, .blackNav-right {
+  margin: 0 25px 0 25px;
+}
+
+.blackNav-left li, .blackNav-right li {
+  display: inline-block;
+  color: #9d9d9d;
+  margin: 2px;
+  font-size: 9pt;
+}
+
+.blackNav-left li:hover, .blackNav-right li:hover {
+  color: white;
+}
+
+.white {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.whiteNav {
+  margin-left: 25px;
+}
+
+.whiteNav li {
+  display: inline-block;
+  color: lightgray;
+  font-size: 11.5pt;
+  margin: 5px;
+}
+
+.whiteNav li:hover {
+  color: black;
+}
+
+.pic-1 {
+  width: 65.667%;
+  height: 100%;
+  background: linear-gradient(to top, #110e0e, #fff0),
+              linear-gradient(to top left, #ffffff08, rgb(255, 64, 6)), 
+              url("main.jpg");           
+  background-position: left;
+  background-size: cover;
+  float: left;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-right: 6px;
+}
+
+.pic-1 h5 {
+	color: white;
+	font-size: 18px;
+}
+
+.pic-1 h2 {
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+}
+
+.coverByline {
+	color: #a6a6a6;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.pic-1 header {
+  padding-top: 22%;
+  padding-left: 15px;
+}
+
+.pic-2 {
+  width: 32.333%;
+  height: 49%;
+  float: left;
+  background: linear-gradient(to top, rgba(4, 4, 4, 0.84), rgba(255, 255, 255, 0)),
+              url("main2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-bottom: 2.5px;
+}
+
+.pic-2 h5 {
+	color: white;
+	font-size: 17px;
+}
+
+.pic-3 {
+  width: 32.333%;
+  height: 50%;
+  background: linear-gradient(to top, rgba(4, 4, 4, 0.84), rgba(255, 255, 255, 0)),
+              url("main3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  float: left;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-top: 2.5px;
+  margin-bottom: 2px;
+}
+
+.coverText {
+	padding-top: 20%;
+	padding-left: 10px;
+}
+
+.coverTitle {
+	font-size: 26px;
+	color: white;
+	font-weight: bold;
+}
+
+.headlines {
+	display: block;
+  width: 100%;
+  height: 73vh;
+  max-height: 560px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.wrapper {
+	max-width: 1192px;
+  margin: 0 auto;
+  margin-top: 3em;
+  padding: 0 12px;
+	display: block;
+}
+
+.latestNews, .latestFunds, .colGrid, .latestDeals {
+    margin-bottom: 3em;
+}
+
+.sectionTitle {
+	font-size: 18pt;
+  margin-bottom: 15px;
+  padding-left: 12px;
+	color: #f42;
+	font-weight: bold;
+}
+
+.latest-grid-wrap, .dealGrid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid-item, .dealItem {
+	flex-basis: 25%;
+  padding: 12px;
+}
+
+.grid-item, .dealItem, .fundItem, .colWrapper {
+  box-sizing: border-box;
+}
+
+.articleImg img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.articleImg, .latest-deal-background {
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 140px;
+	display: inline-block;
+}
+
+.latest-deal-background {
+  height: 150px;
+}
+
+.first {
+  background-image: url("socialmedia2-516x270.png");
+}
+
+.second {
+  background-image: url("Intel-Core-i9-hed-513x270.jpg");
+}
+
+.third {
+  background-image: url("robot-1695653_1920-480x270.jpg");
+}
+
+.fourth {
+  background-image: url("DD6-516x270.jpg");
+}
+
+.fifth {
+  background-image: url("sale_27001_primary_image_wide-540x270.jpg")
+}
+
+.sixth {
+  background-image: url("insurance-tech2-516x270.png")
+}
+
+.seventh {
+  background-image: url("sale_24208_primary_image_wide-540x270.jpg")
+}
+
+.eighth {
+  background-image: url("1-2-516x270.jpg")
+}
+
+.articleTitle {
+  font-weight: bold;
+}
+
+.articleByline {
+	margin-top: 5px;
+	color: #9b9b9b;
+	font-size: 10pt;
+}
+
+.articleByline li {
+  display: inline-block;
+}
+
+.block-wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.latestFunds header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.latest-funds-header-right {
+	padding-top: 5px;
+	color: #f43;
+	padding-right: 10px;
+}
+
+.fundItem {
+  flex-basis: 25%; 
+  max-width: 25%;
+  min-height: 60px;
+  padding: 12px;
+}
+
+.colorWrap {
+  background-color: #fffaf8;
+  height: 100%;
+}
+
+.cardPicture {
+	width: 60px;
+	height: 60px;
+	max-width: 60px;
+	max-height: 60px;
+  position: absolute;
+  margin: 10.6666667px;
+}
+
+.cardName {
+	background: #f42;
+	padding: 10.6666666667px 16px 10.6666666667px 84px;
+	font-size: 18px;
+	overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+	color: #fff;
+}
+
+.cardDeet {
+	background-color: rgba(255,68,34,.08);
+	padding: 10.6666666667px 16px 10.6666666667px 84px;
+}
+
+.cardMain {
+  padding: 16px;
+}
+
+.cardMain span {
+  font-size: 13px;
+  display: block;
+  padding-left: 2em;
+  position: relative;
+  margin-right: 1em;
+  margin-bottom: 0.5em;
+  line-height: 22px;
+}
+
+.storyByline {
+  border-top: 1px solid rgba(255,68,34,.25);
+  font-size: 12px;
+  padding: 17px;
+  line-height: 1.5;
+}
+
+.icon, .icon2 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783);
+  background-size: 1296px 1296px;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+}
+
+.icon {
+  background-position: -976px -976px;
+}
+
+.icon2 {
+  background-position: -48px -48px;
+}
+
+.colGrid {
+  display: flex;
+	flex-wrap: wrap;
+}
+
+.colWrapper {
+	flex-basis: 33.333%;
+	padding: 12px;
+}
+
+.columnTitle {
+	font-size: 18pt;
+	color: #f42;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.col-1 {
+  background: linear-gradient(to top, rgba(4, 4, 4, 0.84), rgba(255, 255, 255, 0)),
+              url("YouTube-TikTok-368x276.jpg");
+}
+
+.col-2 {
+  background: linear-gradient(to top, rgba(4, 4, 4, 0.84), rgba(255, 255, 255, 0)),
+              url("header-image-buy-a-kettlebell-368x276.png")
+}
+
+.col-3 {
+  background: linear-gradient(to top, rgba(4, 4, 4, 0.84), rgba(255, 255, 255, 0)),
+              url("working-from-home-368x276.png")
+}
+
+.col-4 {
+  background: linear-gradient(to top, rgba(4, 4, 4, 0.84), rgba(255, 255, 255, 0)),
+              url("deletion_header-368x276.png");
+}
+
+.col-5 {
+  background: linear-gradient(to top, rgba(4, 4, 4, 0.84), rgba(255, 255, 255, 0)),
+              url("digital-fingerprint-368x276.png")
+}
+
+.col-6 {
+  background: linear-gradient(to top, rgba(4, 4, 4, 0.84), rgba(255, 255, 255, 0)),
+              url("microsoft-hed-368x276.jpg")
+}
+
+.col-7 {
+  background: linear-gradient(to top, rgba(4, 4, 4, 0.84), rgba(255, 255, 255, 0)),
+              url("Google-coronavirus-portal-368x276.jpg")
+}
+
+.col-8 {
+  background: linear-gradient(to top, rgba(4, 4, 4, 0.84), rgba(255, 255, 255, 0)),
+              url("facebook-368x276.png");
+}
+
+.columnPic {
+  background-size: cover;
+  width: 100%;
+  height: 276px;
+}
+
+.sectionPopular {
+  position: relative;
+}
+
+.cardText {
+	color: white;
+	padding: 12px;
+	position: absolute;
+	bottom: 0;
+}
+
+.cardText h3 {
+	margin-top: 7px;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.cardText h5 {
+	font-size: 9.5pt;
+}
+
+.listByline {
+	color: #ddd;
+	font-size: 8pt;
+	padding-top: 8px;
+}
+
+.sectionLatest {
+	background-color: rgba(255,68,34,.06);
+	margin-top: 2px;
+	margin-bottom: 3px;
+	display: flex;
+	flex-direction: row;
+}
+
+.sectionLatest header {
+	flex: 1;
+	padding: 10px 14px 0;
+	color: #f42;
+}
+
+.sectionLatest header h4 {
+	font-weight: bold;
+	font-size: 11pt;
+}
+
+.sectionLatest header h5 {
+	margin-bottom: 4px;
+	font-size: 11pt;
+}
+
+.sidePic {
+	height: 96px;
+  width: 96px;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.col-1-2nd {
+  background-image: url("google-arts-culture-photo-ai.jpg")
+}
+
+.col-2-2nd {
+  background-image: url("Intel-Core-i9-hed.jpg")
+}
+
+.col-3-2nd {
+  background-image: url("socialmedia2.png")
+}
+
+.col-4-2nd {
+  background-image: url("Amazon-Dating-Featured.jpg")
+}
+
+.col-5-2nd {
+  background-image: url("question-unknown.png")
+}
+
+.col-6-2nd {
+  background-image: url("robot-1695653_1920.jpg")
+}
+
+.col-7-2nd {
+  background-image: url("bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced.png")
+}
+
+.col-8-2nd {
+  background-image: url("RNI-Films-IMG-A5A8B6EE-B45C-483F-B3FB-3EF9B23FBCC1.jpg")
+}
+
+.sectionHeadline {
+	list-style-type: none;
+	font-size: 10pt;
+	border-bottom: 1px solid #ececec;
+	margin: 3px 0px -5px -6px;
+	padding: 10px;
+}
+
+.sectionHeadline::before {
+	content: "\2022";
+	color: #f42;
+  margin-right: 5px;
+  position: absolute;
+}
+
+.sectionHeadline p {
+	margin-left: 12px;
+}
+
+.latestDeals header {
+	display: flex;
+	width: 98%;
+	justify-content: space-between;
+}
+
+.deals-more {
+	color: #f42;
+	line-height: 18px;
+}
+
+.latest-deal-background {
+  height: 200px;
+}
+
+.deal-img-1 {
+  background-image: url("sale_26993_primary_image.jpg")
+}
+
+.deal-img-2 {
+  background-image: url("sale_18367_primary_image.jpg")
+}
+
+.deal-img-3 {
+  background-image: url("sale_25748_primary_image.jpg")
+}
+
+.deal-img-4 {
+  background-image: url("sale_19399_primary_image.jpg")
+}
+
+.deal-img-5 {
+  background-image: url("sale_26800_primary_image.jpg")
+}
+
+.deal-img-6 {
+  background-image: url("sale_19040_primary_image.jpg")
+}
+
+.deal-img-7 {
+  background-image: url("sale_27020_primary_image.jpg")
+}
+
+.deal-img-8 {
+  background-image: url("sale_27421_primary_image.jpg")
+}
+
+.dealItem h4 {
+	font-weight: bold;
+	line-height: 1.2;
+	font-size: 13pt;
+}
+
+.prices {
+  margin-top: 5px;
+}
+
+.priceOld {
+	text-decoration-line: line-through;
+	font-size: 11pt;
+	margin-right: 7px;
+	color: #a2a2a2;
+}
+
+.pageBottom {
+  width: 100%;
+  background: black;
+}
+
+.footer-links {
+	padding: 45px 0 30px 0;
+}
+
+.footer-links-social {
+  text-align: center;
+	margin-bottom: 30px;
+}
+
+.footer-links-social li {
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	background-color: #333;
+	border-radius: 50%;
+	margin-left: 10px;
+	padding: 12px;
+	box-sizing: border-box;
+}
+
+.footer-links-social i {
+	background-image: url("icons-sprite.svg");
+	background-size: 1296px 1296px;
+	width: 16px;
+	height: 16px;
+	display: block;
+}
+
+.facebook {
+  background-position: -272px -272px;
+}
+
+.twitter {
+  background-position: -1024px -1024px;
+}
+
+.youtube {
+  background-position: -1280px -1280px;
+}
+
+.instagram {
+  background-position: -416px -416px;
+}
+
+.pinterest {
+  background-position: -672px -672px;
+}
+
+.wifi {
+  background-position: -816px -816px;
+}
+
+.mail {
+  background-position: -576px -576px;
+}
+
+.footer-links-menu {
+	text-align: center;
+}
+
+.footer-links-menu li {
+	display: inline-block;
+	color: #979797;
+	margin-left: 10px;
+}
+
+.footer-legal {
+	text-align: center;
+	color: #979797;
+	font-size: 13.8px;
+	padding: 50px 0 50px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  
+  .navLogo {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .pic-1 {
+    background: linear-gradient(to top, #110e0e, #fff0), 
+                url("main.jpg");
+  }
+
+  .pic-1 h2 {
+    font-size: 47px;
+  }
+
+  .pic-1 header {
+    padding-top: 17%;
+  }
+
+  .coverText {
+    padding-top: 15%;
+  }
+
+  .coverTitle {
+    font-size: 24px;
+  }
+
+  .whiteNav, .blackNav-left {
+    margin-left: 110px;
+  }
+
+  .articleImg {
+    width: 100%;
+    height: 150px;
+  }
+
+  .grid-item, .dealItem {
+    flex-basis: 33.333%;
+  }
+
+  .fundItem:nth-child(-n+3) {
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+  }
+
+  .fundItem:nth-child(4) {
+    display: none;
+  }
+
+  .colWrapper {
+    flex-basis: 50%;
+  }
+
+  .latest-deal-background {
+    height: 200px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+  .black {
+    display: none;
+  }
+
+  .navLogo {
+    height: 50px;
+  }
+
+  .whiteNav {
+    display: none;
+  }
+
+  .pic-1 {
+    width: 100%;
+    height: 33.333%;
+    margin-bottom: 5px;
+  }
+
+  .pic-2 {
+    width: 100%;
+    height: 33.333%
+  }
+
+  .pic-3 {
+    width: 100%;
+    height: 33.333%
+  }
+
+  .pic-1 header {
+    padding-top: 2%;
+  }
+
+  .pic-1 h2 {
+    font-size: 24px;
+  }
+
+  .coverText {
+    padding-top: 5%;
+  }
+
+  .articleImg {
+    width: 15%;
+    height: 55px;
+    position: absolute;
+  }
+
+  .articleTitle, .articleByline, .dealItem h4, .prices {
+    margin-left: 115px;
+  }
+
+  .grid-item, .dealItem {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .fundItem:nth-child(-n+3) {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+
+  .latest-deal-background {
+    height: 75px;
+    width: 75px;
+    background-size: contain;
+    position: absolute;
+  }
+
+  .dealItem {
+    height: 75px;
+    margin-top: 7px;
+  }
+
+  .dealItem h4, .prices {
+    margin-left: 85px;
+  }
+
+  .colWrapper {
+    flex-basis: 100%;
+  }
+
+  .columnPic {
+    height: 500px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .coverText {
+    padding-top: 6%;
+  }
+
+  .articleImg {
+    width: 24%;
+  }
+
+  .pic-1 h2, .coverTitle {
+    font-size: 19px;
+  }
+
+  .fundItem:nth-child(4) {
+    display: block;
+    max-width: 100%;
+    flex-basis: 100%;
+  }  
+
+  .columnPic {
+    width: 409px;
+    height: 296px;
+  }
+
+}
